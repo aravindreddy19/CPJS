@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Times New Roman", Times, serif cursive;
+}
+
+button {
+  cursor: pointer;
+}
+
+.ss img {
+  height: 30px;
+  cursor: pointer;
+}
+
+.ss {
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  background-color: rgb(214, 214, 43);
+}
+.ss .ssleft {
+  display: flex;
+  margin: 2rem;
+  justify-content: space-evenly;
+  width: 25%;
+  font-family: "Sriracha", cursive;
+}
+
+.ss .ssright {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+}
+.ssright button {
+  height: 120%;
+  width: 40%;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.ssdown {
+  height: 85vh;
+  display: flex;
+}
+.ssdown .left {
+  width: 50%;
+  margin: 5rem;
+}
+
+.ssdown h1 {
+  font-family: "Sriracha", cursive;
+}
+
+table {
+  height: 70%;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+td,
+th {
+  border: 2px solid #1f1d1d;
+  text-align: left;
+  padding: 8px;
+}
+
+.ssdown .left button {
+  background-color: rgb(71, 163, 166);
+  border: none;
+  width: 50%;
+  padding: 1rem;
+  border-radius: 10px;
+  color: aliceblue;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.two {
+  height: 100vh;
+  background-color: rgb(58, 58, 168);
+}
+
+.sp {
+  display: flex;
+}
+
+.sp .left {
+  width: 50%;
+  margin-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sp .left button {
+  width: 40%;
+  padding: 1rem;
+}
+
+.sp .left img {
+  height: 90%;
+  margin-top: 8rem;
+}
+
+hr {
+  margin-top: 3rem;
+}
+
+.sp .right {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.sp .right .page {
+  height: 100%;
+  width: 60%;
+  border-radius: 30px;
+  font-family: sans-serif;
+  background-color: rgb(232, 235, 236);
+  /* margin: 4rem;
+    margin-left: 6rem;  */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: blueviolet;
+}
+
+.sp p {
+  margin-left: 1rem;
+  font-size: smaller;
+}
+
+.page input {
+  padding: 0.8rem;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 70%;
+  outline: none;
+}
+
+.page button {
+  padding: 0.8rem;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 70%;
+  cursor: pointer;
+}
+
+.page a {
+  font-weight: bold;
+}
+
+.three {
+  height: 100vh;
+  background-color: rgb(58, 58, 168);
+}
